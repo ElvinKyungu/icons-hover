@@ -1,0 +1,33 @@
+:root {
+  --color-light: rgb(203 213 225);
+  --color-mid: rgb(51 65 85);
+  --color-dark: rgb(71 85 105);
+}
+.iconDiv {
+  height: 4rem;
+  width: 3rem;
+  padding: 4px;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: width 300ms ease-in-out 0s, background-color 300ms linear 200ms;
+}
+
+.iconDiv:hover,
+.iconDiv:focus-visible {
+  width: 162px;
+  background-color: var(--color-mid);
+  transition: width 300ms ease-in-out 0s, background-color 100ms linear 0s;
+}
+
+span.tooltip {
+  visibility: hidden;
+  display: none;
+  color: var(--color-light);
+}
+
+/* .iconDiv:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+  display: inline;
+  margin-left: 14px;
+} */
