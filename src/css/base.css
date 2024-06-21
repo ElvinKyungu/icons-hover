@@ -9,25 +9,13 @@
   padding: 4px;
   border-radius: 8px;
   overflow: hidden;
-  transition: width 300ms ease-in-out 0s, background-color 300ms linear 200ms;
+  white-space: nowrap;
+  transition: width 300ms ease-in-out 0s, background-color 200ms linear 200ms;
 }
 
 .iconDiv:hover,
 .iconDiv:focus-visible {
   width: 162px;
-  background-color: var(--color-mid);
+  background-color: #fff;
   transition: width 300ms ease-in-out 0s, background-color 100ms linear 0s;
 }
-
-span.tooltip {
-  visibility: hidden;
-  display: none;
-  color: var(--color-light);
-}
-
-/* .iconDiv:hover .tooltip {
-  visibility: visible;
-  opacity: 1;
-  display: inline;
-  margin-left: 14px;
-} */
